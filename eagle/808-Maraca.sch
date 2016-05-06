@@ -12775,23 +12775,23 @@ NS Package M08A</description>
 <part name="R303" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="10K"/>
 <part name="R297" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="22K"/>
 <part name="R299" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="4K7"/>
-<part name="R298" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="10K"/>
+<part name="R298" library="TR808clone" deviceset="R-EU_" device="0207/7" value="10K"/>
 <part name="V200" library="supply1" deviceset="GND" device=""/>
 <part name="V201" library="supply1" deviceset="GND" device=""/>
 <part name="C153" library="TR808clone" deviceset="C-EU" device="025-025X050" value="100n"/>
-<part name="VR16" library="pot" deviceset="3RP/1610N" device="" value="100KA"/>
+<part name="LEVEL" library="pot" deviceset="3RP/1610N" device="" value="100KA"/>
 <part name="U$1" library="eurorack" deviceset="POWER" device=""/>
 <part name="P+1" library="supply1" deviceset="+12V" device=""/>
 <part name="P-1" library="supply1" deviceset="-12V" device=""/>
 <part name="V1" library="supply1" deviceset="GND" device=""/>
 <part name="ACCENT" library="solpad" deviceset="LSP11" device=""/>
 <part name="TRIGGER" library="solpad" deviceset="LSP11" device=""/>
-<part name="R238" library="TR808clone" deviceset="R-EU_" device="0207/7" value="1K"/>
+<part name="R238" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="1K"/>
 <part name="OUTPUT" library="erthenvar" deviceset="AUDIO-JACK" device=""/>
 <part name="V4" library="supply1" deviceset="GND" device=""/>
 <part name="OUT_NORM" library="con-molex" deviceset="22-23-2021" device=""/>
 <part name="V5" library="supply1" deviceset="GND" device=""/>
-<part name="D61" library="TR808clone" deviceset="1N4148" device="DO35-10" value="1N4148DO35-10"/>
+<part name="D61" library="TR808clone" deviceset="1N4148" device="DO35-7" value="1N4148DO35-7"/>
 <part name="V2" library="supply1" deviceset="GND" device=""/>
 <part name="R1" library="TR808clone" deviceset="R-EU_" device="0207/7" value="220K"/>
 <part name="Q1" library="808_lt" deviceset="2N3904" device=""/>
@@ -12811,33 +12811,35 @@ NS Package M08A</description>
 <part name="Q3" library="808_lt" deviceset="2N3906" device=""/>
 <part name="P+3" library="supply1" deviceset="+12V" device=""/>
 <part name="R6" library="TR808clone" deviceset="R-EU_" device="0207/7" value="1M"/>
-<part name="C2" library="TR808clone" deviceset="C-EU" device="025-025X050" value="47n"/>
+<part name="C2" library="TR808clone" deviceset="C-EU" device="050-024X044" value="47n"/>
 <part name="V9" library="supply1" deviceset="GND" device=""/>
 <part name="C3" library="TR808clone" deviceset="C-EU" device="025-025X050" value="10n"/>
 <part name="R7" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="15K"/>
 <part name="V10" library="supply1" deviceset="GND" device=""/>
 <part name="R8" library="TR808clone" deviceset="R-EU_" device="0207/7" value="3k3"/>
 <part name="C4" library="TR808clone" deviceset="C-EU" device="025-025X050" value="1n"/>
-<part name="C5" library="TR808clone" deviceset="C-EU" device="025-025X050" value="1n"/>
+<part name="C5" library="TR808clone" deviceset="C-EU" device="050-024X044" value="1n"/>
 <part name="V11" library="supply1" deviceset="GND" device=""/>
 <part name="R9" library="TR808clone" deviceset="R-EU_" device="0207/7" value="68k"/>
-<part name="R10" library="TR808clone" deviceset="R-EU_" device="0207/7" value="6k8"/>
-<part name="WHITE_NOISE" library="con-molex" deviceset="22-23-2021" device=""/>
+<part name="R10" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="6k8"/>
+<part name="WN_NORM" library="con-molex" deviceset="22-23-2021" device=""/>
 <part name="V12" library="supply1" deviceset="GND" device=""/>
 <part name="Q4" library="808_lt" deviceset="2N3904" device=""/>
 <part name="R11" library="TR808clone" deviceset="R-EU_" device="0309/10" value="22K"/>
 <part name="P-2" library="supply1" deviceset="-12V" device=""/>
 <part name="P+4" library="supply1" deviceset="+12V" device=""/>
-<part name="C6" library="TR808clone" deviceset="C-EU" device="025-025X050" value="10n"/>
+<part name="C6" library="TR808clone" deviceset="C-EU" device="050-024X044" value="10n"/>
 <part name="R12" library="TR808clone" deviceset="R-EU_" device="0207/7" value="100K"/>
 <part name="C7" library="rcl" deviceset="CPOL-US" device="B45181A" value="33u"/>
 <part name="IC1" library="linear" deviceset="TL071" device="P"/>
 <part name="R13" library="TR808clone" deviceset="R-EU_" device="0207/7" value="470K"/>
-<part name="C8" library="TR808clone" deviceset="C-EU" device="025-025X050" value="220p"/>
+<part name="C8" library="TR808clone" deviceset="C-EU" device="050-024X044" value="220p"/>
 <part name="P+5" library="supply1" deviceset="+12V" device=""/>
 <part name="P-3" library="supply1" deviceset="-12V" device=""/>
 <part name="R14" library="TR808clone" deviceset="R-EU_" device="0207/7" value="47K"/>
 <part name="V13" library="supply1" deviceset="GND" device=""/>
+<part name="WHITE_NOISE" library="erthenvar" deviceset="AUDIO-JACK" device=""/>
+<part name="V14" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12861,7 +12863,7 @@ NS Package M08A</description>
 <attribute name="NAME" x="58.039" y="49.784" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="63.119" y="52.324" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="VR16" gate="G$1" x="203.2" y="111.76" smashed="yes">
+<instance part="LEVEL" gate="G$1" x="203.2" y="111.76" smashed="yes">
 <attribute name="NAME" x="202.311" y="120.65" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="204.47" y="120.65" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -12935,9 +12937,9 @@ NS Package M08A</description>
 <instance part="V11" gate="1" x="162.56" y="71.12" rot="MR0"/>
 <instance part="R9" gate="G$1" x="162.56" y="81.28" rot="R270"/>
 <instance part="R10" gate="G$1" x="162.56" y="55.88"/>
-<instance part="WHITE_NOISE" gate="-1" x="172.72" y="55.88"/>
-<instance part="WHITE_NOISE" gate="-2" x="172.72" y="53.34"/>
-<instance part="V12" gate="1" x="170.18" y="40.64" rot="MR0"/>
+<instance part="WN_NORM" gate="-1" x="165.1" y="50.8" rot="R180"/>
+<instance part="WN_NORM" gate="-2" x="165.1" y="48.26" rot="R180"/>
+<instance part="V12" gate="1" x="167.64" y="40.64" rot="MR0"/>
 <instance part="Q4" gate="G1" x="172.72" y="88.9" smashed="yes">
 <attribute name="NAME" x="177.8" y="88.9" size="1.778" layer="95"/>
 </instance>
@@ -12960,6 +12962,8 @@ NS Package M08A</description>
 <instance part="P-3" gate="1" x="210.82" y="91.44" rot="R180"/>
 <instance part="R14" gate="G$1" x="203.2" y="68.58" rot="R270"/>
 <instance part="V13" gate="1" x="203.2" y="55.88" rot="MR0"/>
+<instance part="WHITE_NOISE" gate="G$1" x="187.96" y="50.8" rot="R180"/>
+<instance part="V14" gate="1" x="180.34" y="40.64" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -13068,9 +13072,9 @@ NS Package M08A</description>
 <wire x1="116.84" y1="88.9" x2="119.38" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="WHITE_NOISE" gate="-2" pin="S"/>
+<pinref part="WN_NORM" gate="-2" pin="S"/>
 <pinref part="V12" gate="1" pin="GND"/>
-<wire x1="170.18" y1="43.18" x2="170.18" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="43.18" x2="167.64" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
@@ -13081,6 +13085,11 @@ NS Package M08A</description>
 <pinref part="R14" gate="G$1" pin="2"/>
 <pinref part="V13" gate="1" pin="GND"/>
 <wire x1="203.2" y1="58.42" x2="203.2" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="WHITE_NOISE" gate="G$1" pin="RING"/>
+<pinref part="V14" gate="1" pin="GND"/>
+<wire x1="180.34" y1="48.26" x2="180.34" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -13289,13 +13298,6 @@ NS Package M08A</description>
 <junction x="149.86" y="88.9"/>
 </segment>
 </net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="R10" gate="G$1" pin="2"/>
-<pinref part="WHITE_NOISE" gate="-1" pin="S"/>
-<wire x1="170.18" y1="55.88" x2="167.64" y2="55.88" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="C2" gate="G$1" pin="1"/>
@@ -13351,7 +13353,7 @@ NS Package M08A</description>
 <pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="208.28" y1="96.52" x2="203.2" y2="96.52" width="0.1524" layer="91"/>
 <junction x="203.2" y="96.52"/>
-<pinref part="VR16" gate="G$1" pin="A"/>
+<pinref part="LEVEL" gate="G$1" pin="A"/>
 <wire x1="203.2" y1="106.68" x2="203.2" y2="101.6" width="0.1524" layer="91"/>
 <junction x="203.2" y="101.6"/>
 </segment>
@@ -13390,8 +13392,22 @@ NS Package M08A</description>
 <net name="N$19" class="0">
 <segment>
 <pinref part="C7" gate="G$1" pin="-"/>
-<pinref part="VR16" gate="G$1" pin="S"/>
+<pinref part="LEVEL" gate="G$1" pin="S"/>
 <wire x1="208.28" y1="111.76" x2="210.82" y2="111.76" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="WHITE_NOISE" gate="G$1" pin="TIP"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="180.34" y1="55.88" x2="167.64" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="WHITE_NOISE" gate="G$1" pin="NORM"/>
+<pinref part="WN_NORM" gate="-1" pin="S"/>
+<wire x1="167.64" y1="50.8" x2="180.34" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
