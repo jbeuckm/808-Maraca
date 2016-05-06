@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -12786,7 +12786,7 @@ NS Package M08A</description>
 <part name="V1" library="supply1" deviceset="GND" device=""/>
 <part name="ACCENT" library="solpad" deviceset="LSP11" device=""/>
 <part name="TRIGGER" library="solpad" deviceset="LSP11" device=""/>
-<part name="R238" library="TR808clone" deviceset="R-EU_" device="0207/7" value="1K"/>
+<part name="R238" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="1K"/>
 <part name="OUTPUT" library="erthenvar" deviceset="AUDIO-JACK" device=""/>
 <part name="V4" library="supply1" deviceset="GND" device=""/>
 <part name="OUT_NORM" library="con-molex" deviceset="22-23-2021" device=""/>
@@ -12806,7 +12806,7 @@ NS Package M08A</description>
 <part name="C1" library="TR808clone" deviceset="C-EU" device="025-025X050" value="33n"/>
 <part name="V7" library="supply1" deviceset="GND" device=""/>
 <part name="D2" library="TR808clone" deviceset="1N4148" device="DO35-10" value="1N4148DO35-10"/>
-<part name="R5" library="TR808clone" deviceset="R-EU_" device="0207/7" value="10K"/>
+<part name="R5" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="10K"/>
 <part name="V8" library="supply1" deviceset="GND" device=""/>
 <part name="Q3" library="808_lt" deviceset="2N3906" device=""/>
 <part name="P+3" library="supply1" deviceset="+12V" device=""/>
@@ -12816,24 +12816,24 @@ NS Package M08A</description>
 <part name="C3" library="TR808clone" deviceset="C-EU" device="025-025X050" value="10n"/>
 <part name="R7" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="15K"/>
 <part name="V10" library="supply1" deviceset="GND" device=""/>
-<part name="R8" library="TR808clone" deviceset="R-EU_" device="0207/7" value="3k3"/>
+<part name="R8" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="3k3"/>
 <part name="C4" library="TR808clone" deviceset="C-EU" device="025-025X050" value="1n"/>
-<part name="C5" library="TR808clone" deviceset="C-EU" device="025-025X050" value="1n"/>
+<part name="C5" library="TR808clone" deviceset="C-EU" device="050-024X044" value="1n"/>
 <part name="V11" library="supply1" deviceset="GND" device=""/>
 <part name="R9" library="TR808clone" deviceset="R-EU_" device="0207/7" value="68k"/>
-<part name="R10" library="TR808clone" deviceset="R-EU_" device="0207/7" value="6k8"/>
+<part name="R10" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="6k8"/>
 <part name="WHITE_NOISE" library="con-molex" deviceset="22-23-2021" device=""/>
 <part name="V12" library="supply1" deviceset="GND" device=""/>
 <part name="Q4" library="808_lt" deviceset="2N3904" device=""/>
-<part name="R11" library="TR808clone" deviceset="R-EU_" device="0207/7" value="22K"/>
+<part name="R11" library="TR808clone" deviceset="R-EU_" device="0309/10" value="22K"/>
 <part name="P-2" library="supply1" deviceset="-12V" device=""/>
 <part name="P+4" library="supply1" deviceset="+12V" device=""/>
 <part name="C6" library="TR808clone" deviceset="C-EU" device="025-025X050" value="10n"/>
-<part name="R12" library="TR808clone" deviceset="R-EU_" device="0207/7" value="100K"/>
+<part name="R12" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="100K"/>
 <part name="C7" library="rcl" deviceset="CPOL-US" device="B45181A" value="33u"/>
 <part name="IC1" library="linear" deviceset="TL071" device="P"/>
 <part name="R13" library="TR808clone" deviceset="R-EU_" device="0207/7" value="470K"/>
-<part name="C8" library="TR808clone" deviceset="C-EU" device="025-025X050" value="220p"/>
+<part name="C8" library="TR808clone" deviceset="C-EU" device="050-024X044" value="220p"/>
 <part name="P+5" library="supply1" deviceset="+12V" device=""/>
 <part name="P-3" library="supply1" deviceset="-12V" device=""/>
 <part name="R14" library="TR808clone" deviceset="R-EU_" device="0207/7" value="47K"/>
